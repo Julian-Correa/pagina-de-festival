@@ -1,0 +1,28 @@
+{
+  "name": "festivalmusica_inicio",
+  "version": "1.0.0",
+  "description": "Proyecto con gulp, sass y html",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch src/scss:build/css",
+    "tarea": "gulp tarea"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Julian-Correa/pagina-de-festival.git"
+  },
+  "keywords": [
+    "SASS",
+    "Gulp"
+  ],
+  "author": "Dessinger",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Julian-Correa/pagina-de-festival/issues"
+  },
+  "homepage": "https://github.com/Julian-Correa/pagina-de-festival#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "sass": "^1.55.0"
+  }
+}
